@@ -14,4 +14,13 @@ export class Driver extends Person {
     }
     return rating;
   }
+
+  public introduce(): void {
+    console.log(
+      `${this.firstName} ${this.lastName} ${this.rating}`
+    );
+  }
+  public requestForPayment(): void {
+    console.log(`${this.firstName} ${this.lastName} requested for payment`);
+  }
 }

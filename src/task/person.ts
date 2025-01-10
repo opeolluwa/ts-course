@@ -1,8 +1,8 @@
 export abstract class Person {
-  private firstName: string;
-  private lastName: string;
-  private email: string;
-  private occupation: string;
+  protected firstName: string;
+  protected lastName: string;
+  protected email: string;
+  protected occupation: string;
 
   constructor(
     firstName: string,
